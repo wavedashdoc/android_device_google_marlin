@@ -439,6 +439,13 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+# Tell the system to enable copying odexes from other partition.
+PRODUCT_PACKAGES += \
+	cppreopts.sh
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cp_system_other_odex=1
+
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
