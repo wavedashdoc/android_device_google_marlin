@@ -554,10 +554,4 @@
          show. -->
     <bool name="config_navBarAlwaysShowOnSideEdgeGesture">true</bool>
 
-    <!-- Ambient wake gestures -->
-    <bool name="config_supportAmbientWakeGestures">false</bool>
-
-    <!-- Disable ticker DT2SkipTrack and Wake to Ambient on Soli devices -->
-    <bool name="config_has_Soli">true</bool>
-
 </resources>
